@@ -25,7 +25,6 @@ func Hey(remark string) string {
 func isQuestion(input string) bool {
 	if string(input[len(input)-1]) == "?" {
 		return true
-		strings.
 	}
 	return false
 }
